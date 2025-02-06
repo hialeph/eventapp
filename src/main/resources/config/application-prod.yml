@@ -33,7 +33,7 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mariadb://localhost:3306/evtapp?useLegacyDatetimeCode=false
+    url: jdbc:mariadb://host.docker.internal:3306/evtapp?useLegacyDatetimeCode=false
     username: root
     password: 1234
     hikari:

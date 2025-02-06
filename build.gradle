@@ -6,7 +6,7 @@ plugins {
     id "com.gorylenko.gradle-git-properties"
     alias(libs.plugins.spring.boot)
     id "jhipster.spring-cache-conventions"
-//    id "jhipster.docker-conventions"
+    id "jhipster.docker-conventions"
     id "jhipster.code-quality-conventions"
     id "org.liquibase.gradle"
     id "jhipster.node-gradle-conventions"
